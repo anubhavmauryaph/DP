@@ -57,3 +57,7 @@ Question:
 13. Min no of deletion in a string to make it a palindrom. 
 14. Min no of insertion string to make it a palindrom. 
 
+Trick:
+
+If You want max or longest then find maximum of those option .
+
