@@ -1,3 +1,11 @@
+Dynamic Programming 
+
+1. recursive 
+2. top down (recursive + memoisation)
+3. buttom up(itterative)
+4. {{ Dynamic Programming}}
+
+
 There are three type of knapsack 
 1. Fractional Knap ---> greedy method 
 2. 0/1 Knapsack

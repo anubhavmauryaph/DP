@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class LongestCommanSubstring {
     static int[][] table;
     static {
-        table = new int[6][6];
+        table = new int[20][20];
         // Int
     }
 
@@ -43,5 +43,8 @@ public class LongestCommanSubstring {
         String y = "abfce";
         System.out.println(LCS(x, y, x.length(), y.length()));
         display(table);
+    }
+
+    public class display {
     }
 }
