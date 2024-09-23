@@ -1,8 +1,8 @@
 
 import java.util.*;
 
-public class PrintLongestCommanSequence {
-    static int[][] table;
+public class PrintLongestCommonSequence {
+    public static int[][] table;
 
     public static void LCS(String x, String y, int xLength, int yLength) {
         // fillup the array

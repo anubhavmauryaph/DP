@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class LongestCommanSubsequenceButtomUp {
+public class LongestCommonSubsequenceButtomUp {
     // Memoised version of code. 
     static int [][] table;
     

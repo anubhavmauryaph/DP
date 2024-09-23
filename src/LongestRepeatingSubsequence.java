@@ -1,9 +1,5 @@
-import java.util.Arrays;
-
-public class LongestCommanSubsequenceTopDown {
-    
-
-    public static int LCS(String x, String y, int xLength, int yLength){
+public class LongestRepeatingSubsequence {
+    public static int LRS(String x, String y, int xLength, int yLength){
 
         int[][] table = new int[xLength+1][yLength+1];
 
@@ -11,7 +7,7 @@ public class LongestCommanSubsequenceTopDown {
         for (int i = 1; i < xLength+1  ; i++) {
             for (int j = 1; j < yLength+1; j++) {
 
-                if (x.charAt(i-1) == y.charAt(j-1)) {
+                if (x.charAt(i-1) == y.charAt(j-1) && i!=j) {
                     
                     table[i][j] = 1+table[i-1][j-1];
                 }
@@ -23,15 +19,9 @@ public class LongestCommanSubsequenceTopDown {
         }
         return table[xLength][yLength];
     }
-    public static void display(int [][] arr){
-        for (int[] row : arr) {
-            System.out.println(Arrays.toString(row));
-        }
-    }
     public static void main(String[] args) {
-        String x = "abcdgh";
-        String y = "abedfhr";
-        System.out.println(LCS(x, y, x.length(), y.length()));
+        String s = "AABEBCDD";
+        int longestRepeating = LRS(s, s, s.length(), s.length());
+        System.out.println(longestRepeating);
     }
-
 }

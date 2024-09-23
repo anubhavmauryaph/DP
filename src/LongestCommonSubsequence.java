@@ -1,4 +1,4 @@
-public class LongestCommanSubsequence {
+public class LongestCommonSubsequence {
     
     public static int LCS(String x, String y, int xLength, int yLength){
 

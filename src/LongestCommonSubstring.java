@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class LongestCommanSubstring {
+public class LongestCommonSubstring {
     static int[][] table;
     static {
         table = new int[20][20];

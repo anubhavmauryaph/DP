@@ -1,4 +1,10 @@
-Dynamic Programming 
+Dynamic Programming
+
+How to recognise. 
+1. Chosie. 
+2. Optimal (max or min) ask in question. 
+
+
 ```
 1. recursive 
 2. top down (recursive + memoisation)

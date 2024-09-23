@@ -20,7 +20,7 @@ public class KnapsackButtomUpIterative {
                 }
             }
         }
-        LongestCommanSubstring.display(tabel);
+        LongestCommonSubstring.display(tabel);
         return tabel[length][weight];
 
     }
