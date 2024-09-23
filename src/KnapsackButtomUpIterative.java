@@ -1,5 +1,5 @@
 
-public class KnapsackTopDown {
+public class KnapsackButtomUpIterative {
 
     public static int kstpdwn(int[] wt, int[] val, int weight, int length) {
         int[][] tabel = new int[length + 1][weight + 1];
