@@ -73,6 +73,21 @@ Question:
 13. Min no of deletion in a string to make it a palindrom. 
 14. Min no of insertion string to make it a palindrom. 
 ```
+Part-3 
+Matrix Chain Multiplication. [MCM]
+
+Questions:
+
+```
+1. MCM
+2. Printing MCM
+3. Evaluate Expression to True | Boolean Parentesiszation.
+4. Minmum and Max Value of an Expression. 
+5. Palindrome Partitioning.
+6. Scramble String
+7. Egg Dropping Problem. 
+
+```
 Trick:
 
 If You want max or longest then find maximum of those option .
